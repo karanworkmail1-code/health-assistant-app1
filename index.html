@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>My Health Assistant</title>
+<link rel="stylesheet" href="style.css">
+<link rel="manifest" href="manifest.json">
+</head>
+
+<body>
+
+<h1>🥗 Personal Health & Food Assistant</h1>
+
+<div class="card">
+<h2>Add Meal</h2>
+<input id="mealName" placeholder="Meal name">
+<input id="calories" placeholder="Calories">
+<button onclick="addMeal()">Add Meal</button>
+<ul id="mealList"></ul>
+</div>
+
+<div class="card">
+<h2>Water Tracker</h2>
+<button onclick="drinkWater()">💧 Drink Water</button>
+<p id="waterCount"></p>
+</div>
+
+<div class="card">
+<h2>BMI Calculator</h2>
+<input id="height" placeholder="Height cm">
+<input id="weight" placeholder="Weight kg">
+<button onclick="calculateBMI()">Calculate</button>
+<p id="bmiResult"></p>
+</div>
+
+<div class="card">
+<h2>Daily Health Score</h2>
+<p id="healthScore"></p>
+</div>
+
+<div class="card">
+<h2>Notifications</h2>
+<button onclick="enableNotifications()">Enable Reminders</button>
+</div>
+
+<script src="app.js"></script>
+
+</body>
+                                              </html>
